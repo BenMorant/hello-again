@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.benmorant.hello</id>
+
+  <name>Hello</name>
+  <summary>a little app created following elementary's tutorial</summary>
+
+  <metadata_license>CC-BY-4.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+
+  <description>
+    <p>A little app created following elementary's tutorial</p>
+  </description>
+
+  <launchable type="desktop-id">io.github.benmorant.hello.desktop</launchable>
+</component>

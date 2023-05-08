@@ -1,12 +1,12 @@
 /*
  * SPDX-License-Identifier: GPL-3.0-or-later
- * SPDX-FileCopyrightText: 2021 Benjamin Morant <morantbenjamin@gmail.com>
+ * SPDX-FileCopyrightText: 2023 Benjamin Morant <morantbenjamin@gmail.com>
  */
 
- public class MyApp : Gtk.Application {
-    public MyApp () {
+ public class Hello : Gtk.Application {
+    public Hello () {
         Object (
-            application_id: "io.github.benmorant.hello_again",
+            application_id: "io.github.benmorant.hello",
             flags: ApplicationFlags.FLAGS_NONE
         );
     }
@@ -23,6 +23,6 @@
     }
 
     public static int main (string[] args) {
-        return new MyApp ().run (args);
+        return new Hello ().run (args);
     }
 }

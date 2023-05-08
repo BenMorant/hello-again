@@ -1,4 +1,4 @@
-project('io.github.benmorant.hello_again', 'vala', 'c')
+project('io.github.benmorant.hello', 'vala', 'c')
 
 executable(
     meson.project_name(),
@@ -10,13 +10,13 @@ executable(
 )
 
 install_data(
-    'data' / 'hello-again.desktop',
+    'data' / 'hello.desktop',
     install_dir: get_option('datadir') / 'applications',
     rename: meson.project_name() + '.desktop'
 )
 
 install_data(
-    'data' / 'hello-again.metainfo.xml',
+    'data' / 'hello.metainfo.xml',
     install_dir: get_option('datadir') / 'metainfo',
     rename: meson.project_name() + '.metainfo.xml'
 )

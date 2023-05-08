@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+
+Name=hello
+Comment=a little app
+Categories=Development;Education;
+
+Icon=io.github.benmorant.hello
+Exec=io.github.benmorant.hello
+Terminal=false
